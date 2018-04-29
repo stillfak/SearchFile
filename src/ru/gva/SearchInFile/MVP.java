@@ -5,6 +5,16 @@ import java.io.File;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+/**
+ * В класссе реализован MVP для проекта Поиск файла в файловой системе
+ * MVP
+ * интерфейс - консольный
+ * Ввод - с клавиатуры
+ * алгоритм поиска файла или директории с искомым именем и + до 4 любых символов.
+ *
+ * @author Gavrikov V. 15it18.
+ */
+
 public class MVP {
     private static BufferedReader readline = new BufferedReader(new InputStreamReader(System.in));
 
