@@ -1,4 +1,4 @@
-package ru.gva.SearchInFile;
+package ru.gva.SearchFile;
 
 import java.io.BufferedReader;
 import java.io.File;

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane alignment="center" hgap="10" prefHeight="300.0" prefWidth="450.0" vgap="10" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.gva.SearchFile.Controller">
+    <columnConstraints>
+        <ColumnConstraints maxWidth="1.7976931348623157E308" prefWidth="450.0" />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+    </rowConstraints>
+    <children>
+        <Pane prefHeight="305.0" prefWidth="450.0" style="-fx-background-color: #EBEBEB; -fx-border-radius: 20px;">
+
+
+            </Pane>
+    </children>
+</GridPane>
