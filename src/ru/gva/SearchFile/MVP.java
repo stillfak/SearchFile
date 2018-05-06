@@ -16,13 +16,13 @@ import java.io.InputStreamReader;
  */
 
 public class MVP {
-    private static BufferedReader readline = new BufferedReader(new InputStreamReader(System.in));
+    private static BufferedReader reading = new BufferedReader(new InputStreamReader(System.in));
 
     public static void main(String[] args) throws IOException {
         System.out.println("Введите путь откуда начать поиск");
-        String startDirectory = readline.readLine();
+        String startDirectory = reading.readLine();
         System.out.println("Введите что искать");
-        String searchFile = readline.readLine();
+        String searchFile = reading.readLine();
         searchFiles(new File(startDirectory), searchFile);
 
 

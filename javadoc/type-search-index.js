@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"ru.gva.SearchFile","l":"Controller"},{"p":"ru.gva.SearchFile.test","l":"ControllerTest"},{"p":"ru.gva.SearchFile","l":"Main"},{"p":"ru.gva.SearchFile","l":"MVP"},{"p":"ru.gva.SearchFile","l":"SearchFiles"}]
