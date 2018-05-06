@@ -32,16 +32,16 @@ public class Controller {
     //private URL location;
 
     @FXML
-    private TextField searchMsg;
+    private TextField searchMsg;//  поле ввода запроса
 
     @FXML
-    private Button changeStartDir;
+    private Button changeStartDir;// кнопка изменение стартовой папки по умолчанию /home/vadim
 
     @FXML
-    static Button search;
+    static Button search;// кнопка запуска поиска
 
     @FXML
-    private Label path;
+    private Label path;// кнопка выведет путь к стартовой папки
 
 
     @FXML
@@ -111,7 +111,7 @@ public class Controller {
 
 //        label1.setAlignment(Pos.CENTER);
 //        gridPane.getChildren().addAll(label1);
-        System.out.println(resultTrueFile.size());
+//        System.out.println(resultTrueFile.size());
         resultStage.setScene(new Scene(flowPane, 500, 700));
         resultStage.show();
 
