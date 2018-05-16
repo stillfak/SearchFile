@@ -29,7 +29,5 @@ public class SearchFiles {
                 searchFiles(file, searchMsg);
             }
         }
-
-
     }
 }

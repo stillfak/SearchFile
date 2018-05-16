@@ -78,7 +78,7 @@ public class Controller {
         flowPane.setOrientation(Orientation.VERTICAL);
 //        gridPane.setAlignment(Pos.TOP_CENTER);
         File startDir;
-        if (path.getText()==""){
+        if (path.getText().equals("")){
             startDir = new File("/home/vadim");
         }else {
             startDir = new File(path.getText());
